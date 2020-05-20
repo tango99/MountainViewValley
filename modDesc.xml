@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="40">
+    <author>Tango</author>
+    <version>1.0.0.0</version>
+    <title>
+        <en>Mountain View Valley</en>
+    </title>
+    <description>
+        <en>
+		<![CDATA[
+		Welcome to Mountain View Valley. This is a fictional map base on large, open American farms. Within this map you should find lots to do, with all the features of Farming Simulator 2019.
+		
+		You should find this map to be very worker-friendly, with many large rectangular-shaped fields.
+		
+		The map includes features such as:
+		
+		- Custom placeables including; farm silos, farm supplies, houses, sheds and animal pens.
+		- 21 fields of varying sizes
+		- 10 different sell points
+		- Pre-placed farm yard and animal pens for New Farmer mode.
+		- Large forest area available for purchase
+		- Fully functioning BGA with dump pit style sell point.
+		- Empty flat areas available to purchase for placing your own placeables.
+		
+		Enjoy!
+		]]>
+		</en>
+    </description>
+    <iconFilename>icon.png</iconFilename>
+    <multiplayer supported="true"/>
+    <maps>
+        <map id="MaeMeadows" className="Mission00" filename="$dataS/scripts/missions/mission00.lua" configFilename="maps/mapUS.xml" defaultVehiclesXMLFilename="defaultVehicles.xml" defaultItemsXMLFilename="defaultItems.xml">
+            <title>
+                <en>Mountain View Valley</en>
+            </title>
+            <description>
+                <en>Welcome to Mountain View Valley!</en>
+            </description>
+            <iconFilename>map_preview.png</iconFilename>
+        </map>
+    </maps>
+	
+	<storeItems>
+			<storeItem xmlFilename="placeables/farmSilos/farmSiloLarge.xml"/>
+			<storeItem xmlFilename="placeables/sheds/easyShed01.xml"/>
+			<storeItem xmlFilename="placeables/sheds/easyShed03.xml"/>
+			<storeItem xmlFilename="placeables/farmSupplies/farmSupplies.xml"/>
+			<storeItem xmlFilename="placeables/mapUS/farmBuildings/farmHouse.xml"/>
+			<storeItem xmlFilename="placeables/workshop/workshop.xml"/>
+			<storeItem xmlFilename="placeables/workshop/refuelPoint.xml"/>	
+			
+			<storeItem xmlFilename="placeables/mapUS/gasStation/gasStation.xml"/>
+			<storeItem xmlFilename="placeables/mapUS/bga/bga.xml"/>
+			
+<!-- 			<storeItem xmlFilename="placeables/mapUS/sellingStationVehicles/sellingStationVehicles.xml"/>
+			<storeItem xmlFilename="placeables/mapUS/sellingStationGeneric/sellingStationHotel.xml"/>
+			<storeItem xmlFilename="placeables/mapUS/sellingStationGeneric/sellingStationDairy.xml"/>
+			<storeItem xmlFilename="placeables/mapUS/sellingStationGeneric/sellingStationBakery.xml"/>		
+			<storeItem xmlFilename="placeables/mapUS/sellingStationWool/sellingStationWool.xml"/>	
+			<storeItem xmlFilename="placeables/mapUS/sellingStationGeneric/sellingStationManure.xml"/>
+			<storeItem xmlFilename="placeables/mapUS/sellingStationBales/sellingStationBales.xml"/>	 -->			
+			
+			<storeItem xmlFilename="placeables/animalHusbandry/husbandryCowLarge.xml"/>
+			<storeItem xmlFilename="placeables/animalHusbandry/husbandryPigLarge.xml"/>
+			<storeItem xmlFilename="placeables/animalHusbandry/husbandrySheepLarge.xml"/>
+	</storeItems>
+	
+    <l10n>
+		<text name="shopItem_farmSupplies">
+			<en>Farm Supplies by Tango</en>
+        </text>
+		<text name="function_farmSupplies">
+			<en>A placeable silo from which you can buy various farm supplies.</en>
+        </text>
+		<text name="shopItem_workshopByTango">
+			<en>Workshop by Tango</en>
+        </text>
+		<text name="shopItem_farmSiloLargeByTango">
+			<en>Farm Silo Large by Tango</en>
+        </text>
+		<text name="shopItem_farmHouseByTango">
+			<en>Farm House by Tango</en>
+        </text>
+		<text name="shopItem_easyShed1byTango">
+			<en>Easy Shed 1 by Tango</en>
+        </text>
+		<text name="function_easyShedbyTango">
+			<en>A shed to store your machinery. Includes automatic lighting for night time.</en>
+        </text>
+		<text name="shopItem_easyShed3byTango">
+			<en>Easy Shed 3 by Tango</en>
+        </text>
+		<text name="animalPen_cowLargeByTango">
+			<en>Large Cow Pasture by Tango</en>
+        </text>
+		<text name="animalPen_pigLargeByTango">
+			<en>Large Pig Enclosure by Tango</en>
+        </text>
+		<text name="animalPen_sheepLargeByTango">
+			<en>Large Sheep Pasture by Tango</en>
+        </text>
+
+    </l10n>
+</modDesc>

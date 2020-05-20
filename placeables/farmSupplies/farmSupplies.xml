@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeable>
+    <storeData>
+        <name>$l10n_shopItem_farmSupplies</name>
+        <functions>
+			<function>$l10n_function_farmSupplies</function>
+        </functions>
+        <specs>
+            <fillTypes>seeds fertilizer liquidFertilizer lime herbicide pigFood</fillTypes>
+        </specs>
+        <image>placeables/farmSupplies/store_farmSupplies.png</image>
+        <price>20000</price>
+		<canBeSold>true</canBeSold>
+        <showInStore>true</showInStore>
+        <lifetime>1000</lifetime>
+        <rotation>0</rotation>
+        <brand>LIZARD</brand>
+        <species>placeable</species>
+        <category>placeableMisc</category>
+        <vertexBufferMemoryUsage>180404</vertexBufferMemoryUsage>
+        <indexBufferMemoryUsage>32964</indexBufferMemoryUsage>
+        <textureMemoryUsage>5680200</textureMemoryUsage>
+        <instanceVertexBufferMemoryUsage>0</instanceVertexBufferMemoryUsage>
+        <instanceIndexBufferMemoryUsage>0</instanceIndexBufferMemoryUsage>
+    </storeData>
+
+    <placeableType>buyingStation</placeableType>
+    <filename>placeables/farmSupplies/farmSupplies.i3d</filename>
+    <placement testSizeX="27" testSizeZ="20" sizeX="27" sizeZ="20" useRandomYRotation="false" useManualYRotation="true" />
+
+    <buyingStation stationName="Farm Supplies" appearsOnPDA="false" storageRadius="0" fillSoundIdentifier="fillSound01" hotspotTextOffset="0px 30px">
+        <loadTrigger triggerNode="1|0|0|0|0" fillLitersPerSecond="2500" dischargeNode="1|0|0|0|1" autoStart="false" infiniteCapacity="true">
+            <effectNode effectNode="1|0|0|0|2|0" materialType="unloading" materialTypeId="3" fadeTime="0.5" />
+            <effectNode effectNode="1|0|0|0|2|1" materialType="smoke"     materialTypeId="1" fadeTime="0.5" />
+        </loadTrigger>
+        <fillType name="seeds" priceScale="1.2"/>
+		<fillType name="fertilizer" priceScale="1.2"/>
+        <fillType name="liquidFertilizer" priceScale="1.2"/>
+		<fillType name="lime" priceScale="1.2"/>
+		<fillType name="herbicide" priceScale="1.2"/>
+		<fillType name="pigFood" priceScale="1.5"/>
+	</buyingStation>
+
+    <hotspots>
+        <hotspot name="farmSupplies" fullName="Farm Supplies" imageName="SELLING_POINT" hidable="true" linkNode="1|1" category="CATEGORY_TRIGGERS"/>
+    </hotspots>
+
+</placeable>

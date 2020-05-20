@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<map>
+    <farmlands densityMapFilename="maps/mapUS/mapUS_farmland.grle" numChannels="6" pricePerHa="50000">
+        <farmland id="1"  priceScale="1"    npcName="NPC_US_1" defaultFarmProperty="true"/>
+		<farmland id="2"  priceScale="1"    npcName="NPC_US_2" defaultFarmProperty="true"/>
+		<farmland id="3"  priceScale="1"    npcName="NPC_US_3" defaultFarmProperty="false"/>
+		<farmland id="4"  priceScale="1"    npcName="NPC_US_4" defaultFarmProperty="false"/>
+		<farmland id="5"  priceScale="1"    npcName="NPC_US_5" defaultFarmProperty="false"/>
+		<farmland id="6"  priceScale="1"    npcName="NPC_US_6" defaultFarmProperty="false"/>
+		<farmland id="7"  priceScale="1"    npcName="NPC_US_7" defaultFarmProperty="false"/>
+		<farmland id="8"  priceScale="1"    npcName="NPC_US_8" defaultFarmProperty="false"/>
+		<farmland id="9"  priceScale="1"    npcName="NPC_US_9" defaultFarmProperty="false"/>
+		<farmland id="10"  priceScale="1"    npcName="NPC_US_10" defaultFarmProperty="false"/>
+		<farmland id="11"  priceScale="1"    npcName="NPC_US_11" defaultFarmProperty="false"/>
+		<farmland id="12"  priceScale="1"    npcName="NPC_US_12" defaultFarmProperty="false"/>
+		<farmland id="13"  priceScale="1"    npcName="NPC_US_13" defaultFarmProperty="false"/>
+		<farmland id="14"  priceScale="1"    npcName="NPC_US_14" defaultFarmProperty="false"/>
+		<farmland id="15"  priceScale="1"    npcName="NPC_US_15" defaultFarmProperty="false"/>
+		<farmland id="16"  priceScale="1"    npcName="NPC_US_16" defaultFarmProperty="false"/>
+		<farmland id="17"  priceScale="1"    npcName="NPC_US_17" defaultFarmProperty="false"/>
+		<farmland id="18"  priceScale="1"    npcName="NPC_US_18" defaultFarmProperty="false"/>
+		<farmland id="19"  priceScale="1"    npcName="NPC_US_19" defaultFarmProperty="false"/>
+		<farmland id="20"  priceScale="1"    npcName="NPC_US_20" defaultFarmProperty="false"/>
+		<farmland id="21"  priceScale="1"    npcName="NPC_US_1" defaultFarmProperty="false"/>
+		<farmland id="22"  priceScale="1"    npcName="NPC_US_2" defaultFarmProperty="false"/>
+		<farmland id="23"  priceScale="0.3"    npcName="NPC_US_3" defaultFarmProperty="false"/>
+		<farmland id="24"  priceScale="1"    npcName="NPC_US_4" defaultFarmProperty="true"/>
+		<farmland id="25"  priceScale="1"    npcName="NPC_US_5" defaultFarmProperty="false"/>
+		<farmland id="26"  priceScale="1"    npcName="NPC_US_6" defaultFarmProperty="true"/>
+		<farmland id="27"  priceScale="1"    npcName="NPC_US_7" defaultFarmProperty="false"/>		
+    </farmlands>
+</map>

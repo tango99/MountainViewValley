@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<vehicles>
+    <vehicle id="1" filename="data/vehicles/masseyFerguson/activa7347/activa7347.xml" isAbsolute="true" age="0.000000" price="202000.000000" farmId="1" propertyState="1" operatingTime="0.0" defaultFarmProperty="true">
+        <component1 position="75.6233 100.0701 -56.0872" rotation="2.0466 89.9287 0.7597"/>
+        <component2 position="74.4921 100.8254 -56.0888" rotation="5.5834 89.9287 4.2965"/>
+    </vehicle>
+    <vehicle id="2" filename="data/vehicles/masseyFerguson/freeflow/freeflow.xml" isAbsolute="true" age="0.000000" price="49500.000000" farmId="1" propertyState="1" operatingTime="0.000000" defaultFarmProperty="true">
+        <component1 position="81.2915 99.9846 -56.0997" rotation="-1.4172 89.6684 -2.3688"/>
+    </vehicle>
+    <vehicle id="3" filename="data/vehicles/vaderstad/rapid600S/rapid600s.xml" isAbsolute="true" age="0.000000" price="76000.000000" farmId="1" propertyState="1" operatingTime="0.000000" defaultFarmProperty="true">
+        <component1 position="113.7157 100.2181 -55.9192" rotation="-179.8761 -89.7897 179.9919"/>
+        <component2 position="109.0855 100.6406 -55.9090" rotation="-177.6742 -80.0180 179.9312"/>
+    </vehicle>
+    <vehicle id="4" filename="data/vehicles/caseIH/maxxum145CVX/maxxum145CVX.xml" isAbsolute="true" age="0.000000" price="113200.000000" farmId="1" propertyState="1" operatingTime="0.0" defaultFarmProperty="true">
+        <component1 position="112.1096 100.0105 -33.2195" rotation="-178.0061 -89.8881 178.6416"/>
+        <component2 position="110.8273 100.6779 -33.2221" rotation="-177.6885 -89.8864 178.3240"/>
+    </vehicle>
+    <vehicle id="5" filename="data/vehicles/newHolland/T6/T6.xml" isAbsolute="true" age="0.000000" price="103200.000000" farmId="1" propertyState="1" operatingTime="0.0" defaultFarmProperty="true">
+        <component1 position="151.0175 100.0191 -43.2748" rotation="179.3823 -1.5612 -179.9734"/>
+        <component2 position="150.9842 100.6911 -44.4852" rotation="179.3832 -1.5613 -179.9834"/>
+    </vehicle>
+    <vehicle id="6" filename="data/vehicles/kuhn/kuhnAxis402/kuhnAxis402.xml" isAbsolute="true" age="0.000000" price="20000.000000" farmId="1" propertyState="1" operatingTime="0.000000" defaultFarmProperty="true">
+        <component1 position="115.3572 99.9916 -63.0307" rotation="179.9775 -89.1286 -179.9781"/>
+    </vehicle>
+	<vehicle id="7" filename="data/vehicles/agco/weight1100/weight1100.xml" isAbsolute="true" age="0.000000" price="1100.000000" farmId="1" propertyState="1" operatingTime="0" defaultFarmProperty="true">
+        <component1 position="108.8839 100.0401 -33.1959" rotation="179.9999 -86.2124 -179.9998"/>
+    </vehicle>
+    <vehicle id="8" filename="data/vehicles/fortschritt/hw80/hw80.xml" isAbsolute="true" age="0.000000" price="10500.000000" farmId="1" propertyState="1" operatingTime="0.000000" defaultFarmProperty="true">
+        <component1 position="151.2043 100.0336 -35.9690" rotation="-179.4510 -0.2540 -179.9622"/>
+        <component2 position="151.1940 100.9940 -38.1517" rotation="-179.4484 -3.5919 -179.9943"/>
+        <component3 position="151.1191 100.9077 -39.3442" rotation="-179.4255 -3.5920 -179.9941"/>
+    </vehicle>
+    <vehicle id="9" filename="data/vehicles/lizard/pickup1978/pickup1978.xml" isAbsolute="true" age="0.000000" price="30000.000000" farmId="1" propertyState="1" operatingTime="0.0" defaultFarmProperty="true">
+        <component1 position="22.8885 99.9697 -87.4619" rotation="-0.3688 89.5187 -0.1407"/>
+    </vehicle>
+    <vehicle id="10" filename="data/vehicles/salford/salford4204/salford4204.xml" isAbsolute="true" age="0.000000" price="13000.000000" farmId="1" propertyState="1" operatingTime="0.0" defaultFarmProperty="true">
+        <component1 position="112.2672 100.0010 -25.5879" rotation="-0.0695 -87.7750 0.0708"/>
+        <component2 position="109.4252 100.6505 -25.6183" rotation="-2.9247 -87.7758 0.3029"/>
+    </vehicle>
+    <vehicle id="11" filename="data/vehicles/kuhn/kuhnCultimerL300/kuhnCultimerL300.xml" isAbsolute="true" age="0.000000" price="16000.000000" farmId="1" propertyState="1" operatingTime="0.0" defaultFarmProperty="true">
+        <component1 position="114.2803 99.9998 -48.2189" rotation="-1.3076 -89.8072 1.3181"/>
+    </vehicle>
+    <vehicle id="12" filename="data/vehicles/einboeck/rotation1200/rotation1200.xml" isAbsolute="true" age="0.000000" price="35000.000000" farmId="1" propertyState="1" operatingTime="0.0" defaultFarmProperty="true">
+        <component1 position="114.8169 99.9631 -40.5215" rotation="178.3677 -89.1741 179.9802"/>
+        <component2 position="114.9869 101.9767 -39.6642" rotation="-90.8272 -2.5238 88.3845"/>
+        <component3 position="115.0116 101.9766 -41.3737" rotation="90.8262 -2.4767 -91.6881"/>
+    </vehicle>
+</vehicles>

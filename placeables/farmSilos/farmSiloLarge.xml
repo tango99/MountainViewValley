@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeable>
+    <storeData>
+        <name>$l10n_shopItem_farmSiloLargeByTango</name>
+        <functions>
+            <function>$l10n_function_farmSilo</function>
+        </functions>
+        <specs>
+            <capacity>1600000</capacity>
+            <fillTypes>wheat barley oat canola sunflower soybean maize potato sugarbeet sugarcane woodchips grass_windrow drygrass_windrow straw chaff strawPellets hayPellets</fillTypes>
+        </specs>
+        <image>placeables/farmSilos/store_farmSiloLarge.png</image>
+        <price>180000</price>
+        <canBeSold>true</canBeSold>
+        <showInStore>true</showInStore>
+        <lifetime>1000</lifetime>
+        <rotation>0</rotation>
+        <brand>LIZARD</brand>
+        <species>placeable</species>
+        <category>silos</category>
+        <vertexBufferMemoryUsage>541212</vertexBufferMemoryUsage>
+        <indexBufferMemoryUsage>68928</indexBufferMemoryUsage>
+        <textureMemoryUsage>148899536</textureMemoryUsage>
+        <instanceVertexBufferMemoryUsage>0</instanceVertexBufferMemoryUsage>
+        <instanceIndexBufferMemoryUsage>0</instanceIndexBufferMemoryUsage>
+    </storeData>
+
+    <placeableType>silo</placeableType>
+    <filename>placeables/farmSilos/farmSiloLarge.i3d</filename>
+    <placement testSizeX="40" testSizeZ="40" sizeX="30" sizeZ="30" useRandomYRotation="false" useManualYRotation="true" />
+
+    <loadingStation stationName="$l10n_station_farmSilo" appearsOnPDA="false" storageRadius="50" fillSoundIdentifier="fillSound01">
+        <loadTrigger triggerNode="1|0|0|0" fillLitersPerSecond="2000" dischargeNode="1|0|0|1">
+            <effectNode effectNode="1|0|0|2|0" materialType="unloading" materialTypeId="3" fadeTime="0.5" />
+            <effectNode effectNode="1|0|0|2|1" materialType="smoke"     materialTypeId="1" fadeTime="0.5" />
+        </loadTrigger>
+    </loadingStation>
+
+    <unloadingStation stationName="$l10n_station_farmSilo" appearsOnPDA="false" storageRadius="50">
+        <unloadTrigger exactFillRootNode="0|0|0" />
+    </unloadingStation>
+
+    <storages>
+        <storage node="2|0" fillTypes="wheat barley oat canola sunflower soybean maize potato sugarbeet sugarcane woodchips grass_windrow drygrass_windrow straw chaff strawPellets hayPellets" capacityPerFillType="1600000" />
+    </storages>
+    
+    <hotspots>
+        <hotspot name="Farm Silo" fullName="$l10n_station_farmSilo" imageName="SELLING_POINT" hidable="true" linkNode="3" category="CATEGORY_TRIGGERS" />
+    </hotspots>
+
+	<dayNightObjects>
+		<dayNightObject node="8|0|0|0" intensityDay="0" intensityNight="10"/>
+		<dayNightObject node="8|0|0|1" visibleDay="false" visibleNight="true" />
+		<dayNightObject node="8|1|0|0" intensityDay="0" intensityNight="10"/>
+		<dayNightObject node="8|1|0|1" visibleDay="false" visibleNight="true" />
+    </dayNightObjects>
+	
+</placeable>
